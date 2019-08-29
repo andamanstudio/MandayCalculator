@@ -19,7 +19,7 @@ function App() {
           ชั่วโมง/นาที ที่คุณทำงานได้ {manHours} <br />
           ผลการคำนวณ {storyPoint} Manday 
         </p>
-         ใส่ ชั่วโมงที่ทำงานได้ <input type="text" onChange={e => setManHours(e.target.value)} />
+         ใส่ ชั่วโมงที่ทำงานได้ <input type="number" onChange={e => setManHours(e.target.value)} />
          <button onClick={() => calculateRate(manHours)}> คำนวณ </button>
       </header>
     </div>
