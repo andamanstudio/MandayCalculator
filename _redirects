@@ -1,0 +1,1 @@
+/api/system/health* http://api.sendit.asia/oms/api/v1/system/health 200
